@@ -4,38 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     <header>
-        <div>Header Logo</div>
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
-        <div>
-            <h1>This website is awesome</h1>
-            <p>This website has some subtext that goes here under the main title. It's a smaller fontn and the colour is lower contrast</p>
-            <button>Sign up</button>
+        <div class="header">
+            <div class="logo">Header Logo</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
         </div>
-        <img src="images/DesiredOutcome.png" alt="this is a placeholder for an image">
+        <div class="hero">
+            <div>
+                <h1>This website is awesome</h1>
+                <p>This website has some subtext that goes here under the main title. It's a smaller fontn and the colour is lower contrast</p>
+                <button>Sign up</button>
+            </div>
+            <div class="header-img">
+                <img src="missing.png" alt="this is a placeholder for an image">
+            </div>
+        </div>
     </header>
-    <div>
+    
+    <div class="info-section">
         <h2>Some random information.</h2>
         <div class="cardContainer">
-            <div class="card"><img src="" alt="image1">this is some subtext under an illustration or image</div>
-            <div class="card"><img src="" alt="image2">this is some subtext under an illustration or image</div>
-            <div class="card"><img src="" alt="image3">this is some subtext under an illustration or image</div>
-            <div class="card"><img src="" alt="image4">this is some subtext under an illustration or image</div>
+            <div class="card"><div class="img-border"><img src="" alt="image1"></div>this is some subtext under an illustration or image</div>
+            <div class="card"><div class="img-border"><img src="" alt="image2"></div>this is some subtext under an illustration or image</div>
+            <div class="card"><div class="img-border"><img src="" alt="image3"></div>this is some subtext under an illustration or image</div>
+            <div class="card"><div class="img-border"><img src="" alt="image4"></div>this is some subtext under an illustration or image</div>
         </div>
     </div>
-    <div>
+    
+    <div class="quote-section">
         <p>This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</p>
         <p>-Thor, God of Thunder</p>
     </div>
+    <!--
     <div>
         <div>
         <h3>Call to action! It's time!</h3>
@@ -46,5 +56,6 @@
     <footer>
         <p>Copywright The Odin Project 2021</p>
     </footer>
+    -->
 </body>
 </html>

@@ -1,0 +1,134 @@
+/* 
+background-color: #1f2937;
+font-size: 48px;
+font-weight: extra-bold;
+
+font-size: 18px;
+color: #e5e7eb;
+
+font-size: 24px;
+color: #f9faf8;
+
+background-color: #3882f6;
+
+font-size: 36px;
+font-weight: extra-bold;
+color: #1f2937;
+
+background-color: #e5e7eb;
+font-size: 36px;
+font-weight: italic;
+color: #1f2937;
+*/
+body {
+    padding : 0px;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    flex-direction: column; 
+    font-size: 18px;
+    color: #e5e7eb;
+    /*padding : 0px 150px;*/
+    margin: 0px;
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+    width: 80%;
+    margin: auto;
+}
+
+header > div > div> h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #e5e7eb;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.header-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #888888;
+    min-height: 200px;
+    min-width: 400px;
+    font-size: 12px;
+    color: #fff;
+    
+}
+
+nav > ul, nav > ul > li, nav > ul > li > a {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    color:#e5e7eb
+}
+
+nav > ul {
+    display: flex;
+    gap: 20px;
+}
+button {
+    background-color: #3882f6;
+    font-weight: 600;
+    font-size: 20px;
+    color: #f9faf8;
+    padding: 10px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: none;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9faf8;
+    width: 80%;
+    margin: auto;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1f2937;
+}
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+.img-border {
+    display: flex;
+    border: 2px solid #3882f6;
+    border-radius: 12px;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
