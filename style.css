@@ -156,3 +156,54 @@ button {
     font-style: bold;
     text-align: right;
 }
+
+.call-section {
+    display: flex;
+    padding: 50px 0px;
+    align-items: center;
+    width: 80%;
+    margin: 100px 0px;
+    margin-inline: auto;
+    background-color: #3882f6;
+    border-radius: 12px;
+}
+.call {
+    display: flex;
+    justify-content: space-between;
+    
+    color: #f9faf8;
+    font-size: 24px;
+    margin: 0px;
+    width: 80%;
+    margin-inline: auto;
+    text-align: left;
+}
+.call > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call > div > button {
+    font-size: 20px;
+    padding: 10px 30px;
+    border-radius: 12px;
+    text-decoration: none;
+    border: 1px solid #f9faf8;
+}
+.call > div > h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call > div > p {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
