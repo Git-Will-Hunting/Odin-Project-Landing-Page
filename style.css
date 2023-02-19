@@ -30,7 +30,6 @@ header {
     flex-direction: column; 
     font-size: 18px;
     color: #e5e7eb;
-    /*padding : 0px 150px;*/
     margin: 0px;
     background-color: #1f2937;
 }
@@ -131,4 +130,29 @@ button {
     padding: 10px;
     height: 150px;
     width: 150px;
+}
+
+.quote-section {
+    display: flex;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+    font-style: italic;
+    font-weight: light;
+}
+.thor {
+    width: 80%;
+    margin: auto;
+    font-weight: 600;
+    font-style: none;
+    font-style: bold;
+    text-align: right;
 }
